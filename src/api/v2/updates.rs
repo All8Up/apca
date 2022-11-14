@@ -46,6 +46,9 @@ pub enum OrderStatus {
   /// execution.
   #[serde(rename = "new")]
   New,
+  /// The order has been accepted.
+  #[serde(rename = "accepted")]
+  Accepted,
   /// The order has changed.
   #[serde(rename = "replaced")]
   Replaced,
